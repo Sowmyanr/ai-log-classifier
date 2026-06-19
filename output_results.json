@@ -1,0 +1,20 @@
+[
+  {
+    "prediction": "Other",
+    "confidence": 0.5550446814300273,
+    "raw_log": "ERROR: DataNode failed to connect to NameNode due to socket timeout",
+    "clean_log": "error: datanode failed to connect to namenode due to socket timeout"
+  },
+  {
+    "prediction": "Node Failure",
+    "confidence": 0.5566330530291754,
+    "raw_log": "WARN: Disk failure detected on node 10.0.0.5",
+    "clean_log": "warn: disk failure detected on node <ip>"
+  },
+  {
+    "prediction": "Node Failure",
+    "confidence": 0.8313421154116682,
+    "raw_log": "FATAL: OutOfMemoryError in DataNode process",
+    "clean_log": "fatal: outofmemoryerror in datanode process"
+  }
+]

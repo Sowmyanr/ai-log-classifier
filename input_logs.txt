@@ -1,0 +1,3 @@
+ERROR: DataNode failed to connect to NameNode due to socket timeout
+WARN: Disk failure detected on node 10.0.0.5
+FATAL: OutOfMemoryError in DataNode process
